@@ -23,7 +23,7 @@ const createWindow = () => {
     fullscreen: true,
     resizable: true,
     title: 'Trafexia - Mobile Traffic Interceptor',
-    icon: join(__dirname, '../../resources/icons/icon.png'),
+    icon: join(__dirname, '../resources/icons/icon.png'),
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       nodeIntegration: false,
